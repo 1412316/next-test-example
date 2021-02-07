@@ -2,6 +2,25 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+
+  function componentDidMount() {
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v9.0'
+      });
+    };
+  
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  }
+  
+
   return (
     <div className={styles.container}>
       <Head>
@@ -60,6 +79,13 @@ export default function Home() {
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
+      <div className="fb-customerchat"
+        attribution="setup_tool"
+        page_id="100207341700762"
+        theme_color="#ff5ca1"
+        logged_in_greeting="Chào bạn!"
+        logged_out_greeting="Chào bạn!">
+      </div>
     </div>
   )
 }
