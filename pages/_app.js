@@ -18,6 +18,7 @@ function MyApp({ Component, pageProps }) {
       js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0&appId=224405702374158&autoLogAppEvents=1" nonce="bYmFnOn4"></script>
   }, [])
 
   return <Component {...pageProps} />

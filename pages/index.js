@@ -47,6 +47,7 @@ export default function Home() {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
+            <div class="fb-like" data-href="https://www.facebook.com/H%C3%B4m-nay-l%C3%A0-m%E1%BB%99t-ng%C3%A0y-m%E1%BB%9Bi-100207341700762" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
           </a>
         </div>
       </main>
