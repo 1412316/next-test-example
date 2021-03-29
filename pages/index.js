@@ -47,8 +47,9 @@ export default function Home() {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
-            <div class="fb-like" data-href="https://www.facebook.com/H%C3%B4m-nay-l%C3%A0-m%E1%BB%99t-ng%C3%A0y-m%E1%BB%9Bi-100207341700762" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
           </a>
+          <div class="fb-like" data-href="https://www.facebook.com/H%C3%B4m-nay-l%C3%A0-m%E1%BB%99t-ng%C3%A0y-m%E1%BB%9Bi-100207341700762" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
+          <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FH%25C3%25B4m-nay-l%25C3%25A0-m%25E1%25BB%2599t-ng%25C3%25A0y-m%25E1%25BB%259Bi-100207341700762&width=90&layout=button_count&action=like&size=small&share=false&height=21&appId=224405702374158" width="90" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
       </main>
 
