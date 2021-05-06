@@ -74,10 +74,6 @@ export default function Home() {
         logged_in_greeting="Chào bạn!"
         logged_out_greeting="Chào bạn!">
       </div> */}
-      <div class="fb-customerchat"
-        attribution="page_inbox"
-        page_id="109453607947921">
-      </div>
     </div>
   )
 }
