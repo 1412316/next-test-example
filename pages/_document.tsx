@@ -15,8 +15,8 @@ class MyDocument extends Document {
           <NextScript />
         </body>
         <div className="fb-customerchat"
-          data-attribution="page_inbox"
-          data-page_id="109453607947921">
+          attribution="page_inbox"
+          page_id="109453607947921">
         </div>
       </Html>
     )

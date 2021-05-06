@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import { useEffect } from 'react'
-declare global { interface Window { fbAsyncInit: any; } }
+// declare global { interface Window { fbAsyncInit: any; } }
 
 function MyApp({ Component, pageProps }) {
 
